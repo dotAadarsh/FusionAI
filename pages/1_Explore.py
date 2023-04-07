@@ -6,6 +6,7 @@ import openai
 from tweets import tweets
 from streamlit_pills import pills
 
+openai.api_key = st.secrets["OPENAI_KEY"]
 DEVELOPER_KEY = st.secrets['yt_api_key']
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
