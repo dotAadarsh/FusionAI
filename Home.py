@@ -7,7 +7,7 @@ st.subheader("Unify your media experience with ease")
 
 st.header("The Design")
 with st.expander("Figma design"):
-    st.image("./assets/explore-page.png")
+    st.image("./assets/explore-logo.png")
     st.image("./assets/InsiderView.png")
 
 st.header("The plan")
